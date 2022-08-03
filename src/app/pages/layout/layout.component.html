@@ -4,6 +4,7 @@
     <h3>Lembrete!</h3>
     <p>Antes de ir para a próxima missão não se esqueça de "commitar"!</p>
   </app-alert>
+  <app-alert-inline>{{currentTemperature}}</app-alert-inline>
   <div class="background_front"></div>
   <div class="help" [ngClass]="{ 'help--is-open': isOpen }">
     <h2 (click)="showHideHelp()" class="help__title">Ajuda</h2>

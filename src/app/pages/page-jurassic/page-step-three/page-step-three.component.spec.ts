@@ -39,7 +39,7 @@ describe('PageStepThreeComponent', () => {
         fixture.detectChanges();
         jest.runAllTimers();
 
-        expect(navigateSpy).toHaveBeenCalledWith(['/step-9']);
+        expect(navigateSpy).toHaveBeenCalledWith(['/step-4']);
         done();
       });
     });
